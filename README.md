@@ -18,5 +18,26 @@ CRUD Laravel is an application that handles the data with the Create, Read, Upda
 ### Show post
 ![image](https://user-images.githubusercontent.com/65068770/147852754-4d5b4116-78fe-4976-9e23-38517499c6fb.png)
 
+## Installation
+1. Clone the repository in the terminal / command prompt:
+
+        $ git clone https://github.com/henZ1010/crud-laravel.git
+
+2. Visit the cloned repository folder to install Composer by using the terminal / command prompt:
+        
+        $ composer install
+
+3. Copy and paste the .env.example inside the project root directory.
+
+4. Rename the .env.example into .env.
+
+5. Generate a new application key at the terminal / command prompt into the project root directory:
+       
+       $ php artisan key:generate
+
+6. Run the web application in the terminal / command prompt in the project root directory:
+       
+       $ php artisan serve
+
 ## Credit
 Thanks to the [LaravelCode](https://www.laravelcode.com/) for giving such a useful guide to let me understand about the approach implementation which can be build in Laravel framework.
